@@ -38,13 +38,13 @@ const Navbar = () => {
             <nav className={`flex justify-between items-center ${click ? "nav-items active" : "nav-items"}`}>
               <ul className="nav-list">
                 <li className="inline px-5 py-3 mx-2 transition-all duration-300 text-sm hover:text-red-500">
-                  <Link className="nav-link" to="/">FEATURES</Link>
+                  <Link className="nav-link tracking-wider" to="/">FEATURES</Link>
                 </li>
                 <li className="inline px-5 py-3 mx-2 transition-all duration-300 text-sm hover:text-red-500">
-                  <Link className="nav-link" to="/">PRICING</Link>
+                  <Link className="nav-link tracking-wider" to="/">PRICING</Link>
                 </li>
                 <li className="inline px-5 py-3 mx-2 transition-all duration-300 text-sm hover:text-red-500">
-                  <Link className="nav-link" to="/">CONTACT</Link>
+                  <Link className="nav-link tracking-wider" to="/">CONTACT</Link>
                 </li>
               </ul>
               <button className="ml-4 px-7 py-2 transition-all duration-300 text-white border-2 border-solid border-red-500 hover:bg-transparent hover:text-red-500 text-sm bg-red-500 rounded-md">LOGIN</button>
