@@ -9,8 +9,8 @@ const Footer = () => {
           <h5 className="text-sm">35,000+ ALREADY JOINED</h5>
           <h2 className="text-2xl sm:text-3xl text-center leading-8 sm:leading-10 mt-2 mb-8 md:mt-10 md:mb-9">Stay up-to-date with what we're doing</h2>
           <form className="flex w-full sm:w-full justify-between flex-col sm:flex-row">
-            <input type="text" placeholder="Enter your email address" className="py-2 px-4 sm:py-2 sm:px-4 w-full sm:w-7/10 rounded-sm md:rounded-md" />
-            <input type="submit" value="Contact Us" className="sm:ml-3 mt-4 sm:mt-0 py-2 sm:py-2 px-6 cursor-pointer border-2 border-red-500 bg-red-500 rounded-sm md:rounded-md shadow-md hover:bg-white hover:text-red-500 hover:border-red-500 transition-all duration-300" />
+            <input type="text" placeholder="Enter your email address" className="py-2 px-4 sm:py-2 sm:px-4 w-full sm:w-7/10 rounded-md" />
+            <input type="submit" value="Contact Us" className="sm:ml-3 mt-4 sm:mt-0 py-2 sm:py-2 px-6 cursor-pointer border-2 border-red-500 bg-red-500 rounded-md shadow-md hover:bg-white hover:text-red-500 hover:border-red-500 transition-all duration-300" />
           </form>
         </div>
       </div>
@@ -32,11 +32,11 @@ const Footer = () => {
               </li>
             </ul>
           </nav> 
-          <div className="mt-4 md:mt-0">
-            <Link to="/" className="mx-5 text-white hover:text-red-500 text-2xl">
+          <div className="mt-6 md:mt-0">
+            <Link to="/" className="mx-4 text-white hover:text-red-500 text-xl md:text-2xl">
               <i className="fa fa-facebook-official"></i>
             </Link>
-            <Link to="/" className="mx-5 text-white hover:text-red-500 text-2xl">
+            <Link to="/" className="mx-4 text-white hover:text-red-500 text-xl md:text-2xl">
               <i className="fa fa-twitter"></i>
             </Link>
           </div>
