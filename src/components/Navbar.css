@@ -1,0 +1,26 @@
+
+/* .nav-items {
+  transform: translateX(100%);
+}
+@media (max-width: 960px) {
+  .active {
+    transform: translateX(0);
+  }
+  .nav-items {
+
+    transform: translateX(100%);
+    position: absolute;
+    flex-direction: column;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    padding: 6rem 2rem 2rem 2rem;
+    left: 0;
+    top: 0;
+    background-color: rgba(11, 24, 66, 0.493); 
+  }
+}  */
+
+/* .nav {
+  color: #5368df;
+} */
