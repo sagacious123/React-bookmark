@@ -14,9 +14,9 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className=" bg-navbg">
+      <div className=" bg-navbg py-10 md:py-7">
         <div className="container w-10/12 m-auto flex justify-between items-center flex-col md:flex-row">
-          <nav className="flex items-center flex-col md:flex-row py-10 md:py-7">
+          <nav className="flex items-center flex-col md:flex-row">
             <Link to="/" className="mb-6 md:mb-0 md:mr-7">
               <img src="/images/logo-bookmark2.svg" alt="logo"/>
             </Link>
@@ -33,10 +33,10 @@ const Footer = () => {
             </ul>
           </nav> 
           <div className="mt-4 md:mt-0">
-            <Link to="/" className="mx-3 text-white hover:text-red-500 text-2xl">
+            <Link to="/" className="mx-5 text-white hover:text-red-500 text-2xl">
               <i className="fa fa-facebook-official"></i>
             </Link>
-            <Link to="/" className="mx-3 text-white hover:text-red-500 text-2xl">
+            <Link to="/" className="mx-5 text-white hover:text-red-500 text-2xl">
               <i className="fa fa-twitter"></i>
             </Link>
           </div>
